@@ -1,0 +1,26 @@
+{
+  "name": "apachetree",
+  "title": "jQueryApacheTree",
+  "description": "jqueryApacheTree is a jQuery plugin which gets the listing hierarchy of an Apache Directory Index.",
+  "keywords": [
+    "translation",
+    "i18n"
+  ],
+  "version": "0.2.0",
+  "author": {
+    "name": "Henri Bourcereau",
+    "email" : "henri@rhumbs.fr",
+    "url": "http://www.rhumbs.fr"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0",
+      "url": "http://opensource.org/licenses/gpl-3.0.html"
+    }
+  ],
+  "bugs": "https://github.com/mmai/jquery.apachetree/issues",
+  "docs": "https://github.com/mmai/jquery.apachetree",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
