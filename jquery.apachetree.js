@@ -71,7 +71,8 @@
           var passedParentLink = false;
           var files = $('a', html).filter( function(i, a) {
               if (passedParentLink) return true;
-              if (a.innerHTML.trim() === "Parent Directory") passedParentLink = true;
+              var linkName = a.innerHTML.trim();
+              if (linkName === "Parent Directory" || linkName === "../") passedParentLink = true;
               return false;
             });
 
